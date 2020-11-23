@@ -6,7 +6,7 @@ public class IntUsingArray {
 	int arr[];
 	int top;
 	int stack_Size;
-	
+	private static Scanner sc;
 	
 	public IntUsingArray(int a) {
 		arr=new int[a];
@@ -97,8 +97,6 @@ public class IntUsingArray {
 				System.out.println("Stack Exited");
 				break;
 			}
-		
-		sc.close();
 			}
 		
 	}
