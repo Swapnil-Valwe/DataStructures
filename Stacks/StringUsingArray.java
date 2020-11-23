@@ -1,4 +1,3 @@
-package Stacks;
 import java.util.Scanner;
 
 public class StringUsingArray {
@@ -73,7 +72,8 @@ public class StringUsingArray {
 			case 1: 
 				
 				System.out.println("Enter the Value to Push");
-				value = sc.next();
+				sc.nextLine();
+				value = sc.nextLine();
 				s1.push(value);
 				break;
 			case 2:
