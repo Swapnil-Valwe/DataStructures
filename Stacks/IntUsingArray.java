@@ -1,4 +1,3 @@
-package Stacks;
 import java.util.*;
 
 public class IntUsingArray {
@@ -51,7 +50,7 @@ public class IntUsingArray {
 		return top == -1;
 	}
 	
-	public void peak() {
+	public void peek() {
 		System.out.println(arr[top]);
 	}
 	
@@ -71,7 +70,7 @@ public class IntUsingArray {
 			System.out.println("Enter 1 to Push");
 			System.out.println("Enter 2 to Pop");
 			System.out.println("Enter 3 to Display");
-			System.out.println("Enter 4 to Peak");
+			System.out.println("Enter 4 to Peek");
 			System.out.println("Enter 5 to Exit");
 			System.out.println("*********************************");
 			
@@ -90,7 +89,7 @@ public class IntUsingArray {
 				s1.display();
 				break;
 			case 4:
-				s1.peak();
+				s1.peek();
 				break;
 			case 5:
 				System.exit(0);
